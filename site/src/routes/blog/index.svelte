@@ -6,6 +6,8 @@
 </script>
 
 <script>
+	import { Icon } from '@sveltejs/site-kit';
+
 	export let posts;
 </script>
 
@@ -28,6 +30,10 @@
 			</a>
 		</article>
 	{/each}
+
+	<div>
+		<a href='blog/rss.xml'><Icon name="rss" /> RSS Feed</a>
+	</div>
 </div>
 
 <style>

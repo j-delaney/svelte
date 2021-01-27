@@ -31,12 +31,16 @@
 		</article>
 	{/each}
 
-	<div>
+	<div class="rss">
 		<a href='blog/rss.xml'><Icon name="rss" /> RSS Feed</a>
 	</div>
 </div>
 
 <style>
+	.rss {
+		margin-top: 3.2rem;
+	}
+
 	.posts {
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 1em;
